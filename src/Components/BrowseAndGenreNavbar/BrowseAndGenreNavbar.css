@@ -1,0 +1,132 @@
+.browse-and-genre-navbar {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 2rem 2rem;
+    color: white;
+    background-color: #161a1a;
+    border: 1px solid transparent;
+    background-color: transparent;
+    /* opacity: 50%; */
+
+    justify-content: space-between;
+    align-items:center
+}
+.browse-and-genre-navbar a {
+    margin: 0rem 1rem;
+    color: white;
+}
+.browse-and-genre-navbar .icon{
+    font-size: 2rem;
+}
+.browse-and-genre-navbar .main-nav-div{
+    align-items: center;
+}
+.browse-and-genre-navbar .main-nav-div .page-logo-div{
+    align-items: center;
+    margin: 0rem;
+}
+.browse-and-genre-navbar .main-nav-div .page-logo-div img{
+    width: 100%
+}
+.browse-and-genre-navbar .main-nav-div a{
+    cursor: pointer;
+    padding: 0.125rem 1.5rem;
+    font-size: 1.25rem;
+    margin: 0rem;
+    color: #99999f;
+}
+.browse-and-genre-navbar .main-nav-div a:hover{
+    text-decoration: none;
+    color: #2DCEEF;
+}
+.browse-and-genre-navbar .main-nav-div .browse{
+    position: relative;
+}
+.browse-and-genre-navbar .main-nav-div .browse::after{
+    content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:1.5rem; 
+  padding: 0.125rem 0.125rem;
+  background:linear-gradient(to right, #9B2DEF 0%, #2DCEEF 100%);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+}
+.browse-and-genre-navbar .main-nav-div .library{
+    position: relative;
+
+}
+.browse-and-genre-navbar .main-nav-div .library:after {
+    content: '';
+    width: 0.5rem;
+    position: absolute;
+    height: 0.5rem;
+    top:100%;
+    left:50%;
+    right:50%;
+    background-color: #2DCEEF;
+    border-radius: 50%;
+  }
+  .browse-and-genre-navbar .navigation-div{
+      align-items: center;
+  }
+  .browse-and-genre-navbar .navigation-div .previous-page{
+     color: #99999f;
+     margin: 0rem;
+     font-size: 1.125rem;
+  }
+  .browse-and-genre-navbar .navigation-div .previous-page:hover{
+    text-decoration: none;
+    color: #2DCEEF;
+}
+  .browse-and-genre-navbar .navigation-div .current-page{
+      color: white;
+      font-size: 1.125rem;
+  }
+  .browse-and-genre-navbar .navigation-div .fa-slash{
+      margin: 0rem 0.5rem;
+  }
+  .browse-and-genre-navbar .profile-and-search-div{
+      align-items: center;
+  }
+  .browse-and-genre-navbar .profile-and-search-div .search-div{
+      background-color: #898B91;
+      border-radius: 1.25rem;
+      padding: 0.5rem 0.5rem;
+      width: 65%;
+    align-items: center;
+  }
+  .browse-and-genre-navbar .profile-and-search-div .search-div input{
+      background-color:transparent;
+      border: none;
+      outline: none;
+      margin-left: 0.5em;
+      color: white;
+  }
+  .browse-and-genre-navbar .profile-and-search-div .search-div input::placeholder{
+      color: white;
+      font-weight: bold;
+  }
+  .browse-and-genre-navbar .profile-and-search-div .profile-info-div{
+      flex-grow: 1;
+      margin-left: 1.5rem;
+      align-items: center;
+      width: 100%;
+  }
+  .browse-and-genre-navbar .profile-and-search-div .profile-info-div .fa-user-circle{
+    font-size: 1.875rem;
+    cursor: pointer;
+}
+.browse-and-genre-navbar .profile-and-search-div .profile-info-div .fa-angle-down{
+    font-size: 0.625rem;
+    cursor: pointer;
+}
+.browse-and-genre-navbar .profile-and-search-div .profile-info-div span{
+    font-size: 1rem;
+    margin: 0rem 0.75rem;
+}

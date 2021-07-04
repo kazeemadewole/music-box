@@ -1,0 +1,115 @@
+.FeachSong {
+  width: 100%;
+  height: 6vh;
+}
+.FeachSong .number {
+  width: 2.5%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.FeachSong .imm {
+  width: 5%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #fff;
+  float: left;
+  border: 1px solid red;
+  margin: 0 10px;
+}
+.FeachSong .title {
+  width: 22%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #fff;
+  float: left;
+}
+.FeachSong .artist {
+  width: 25%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #fff;
+  float: left;
+}
+.FeachSong .ablum {
+  width: 25%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.FeachSong .time {
+  width: 16.5%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.FeachSong .time i {
+  padding-left: 10px;
+  color: #fff;
+  margin-left: 15px;
+}
+.FeachSong .time button {
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.FeachSongSmall {
+  display: none;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.FeachSongSmall .Artist-page {
+  width: 170px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.FeachSongSmall .Artist-page .letter {
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 900 20px/61px Lato;
+  letter-spacing: 0.12px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: -20px;
+}
+.FeachSongSmall .Artist-page img {
+  width: 45px;
+  height: 45px;
+  opacity: 1;
+  margin-top: -30px;
+}
+.FeachSongSmall .Artist-page span {
+  color: var(--unnamed-color-ffffff);
+  font: normal normal normal 16px/61px Lato;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  opacity: 1;
+  font-weight: bolder;
+  position: absolute;
+  padding-left: 20px;
+  margin-top: -30px;
+}
+@media screen and (max-width: 1020px) {
+  .FeachSong {
+    display: none;
+  }
+  .FeachSongSmall {
+    display: block;
+  }
+}

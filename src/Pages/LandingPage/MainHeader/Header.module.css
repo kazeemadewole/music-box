@@ -1,0 +1,36 @@
+.header {
+  background: #161a1a 0% 0% no-repeat padding-box !important;
+}
+.text {
+  color: white !important;
+  opacity: 1 !important;
+  margin-left: 20px;
+  font: normal normal bold 15px/20px sans-serif;
+}
+.headerDesign {
+  line-height: 0.8 !important;
+  font-size: 16px !important; 
+  font-weight: bold !important;
+
+}
+.navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  border: 1.5px solid #ffffff !important;
+  border-radius: 20px !important;
+  padding: 8px 25px !important;
+  text-align: center !important;
+  text-decoration: none;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}

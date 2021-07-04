@@ -1,0 +1,73 @@
+.thirdView {
+  background: transparent url('../../../assets/Listen-anytime-anywhere/Listen-anytime-anywhere.png') 0% 0% no-repeat
+    padding-box !important;
+  opacity: 1;
+  width: 100vw !important;
+  height: 78vh !important;
+  object-fit: cover !important;
+}
+.thirdViewImage {
+  display: none;
+}
+.thirdViewText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding-top: 20%;
+  margin-left: 20vw;
+  color: white;
+}
+.thirdViewText h2 {
+  text-align: left;
+  font: normal normal 900 36px/34px Lato;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  width: 423px;
+  opacity: 1;
+}
+.thirdViewText p {
+  text-align: left;
+  font: normal normal normal 20px/35px Lato;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  opacity: 1;
+  width: 431px;
+}
+
+@media screen and (max-width: 1000px) {
+  .thirdView {
+    background: #161a1a 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    height: 500px !important;
+  }
+  .thirdViewImage {
+    display: block;
+    width: 100%;
+    height: 276px;
+  }
+  .thirdViewImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .thirdViewText {
+    padding-top: 20%;
+    margin-left: 10%;
+  }
+  .thirdViewText h2 {
+    text-align: left;
+    font: normal normal 900 24px/34px Lato;
+    letter-spacing: 0.24px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .thirdViewText p {
+    width: 347px;
+    text-align: left;
+    font: normal normal normal 16px/24px Lato;
+    letter-spacing: 0.29px;
+    color: #ffffff;
+    opacity: 1;
+  }
+}

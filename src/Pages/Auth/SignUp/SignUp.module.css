@@ -1,0 +1,418 @@
+.divWrapper {
+  background: transparent url('../../../assets/BG.png') 0% 0% no-repeat padding-box !important;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+.ModalWrapper {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 60%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 1px;
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.show {
+  opacity: 1 !important;
+  top: 55% !important;
+  /* transform: translate(-50%, -50%); */
+}
+.hide {
+  opacity: 0 !important;
+  top: -100% !important;
+  /* transform: translate(0, 0); */
+}
+.close {
+  font-size: 20px !important;
+  color: black !important;
+  padding: 20px !important;
+  width: 98% !important;
+}
+.arrow {
+  display: none !important;
+}
+.imgClose {
+  float: right !important;
+}
+.linkfacebook {
+  color: white !important;
+  text-decoration: none !important;
+}
+.linkgoogle {
+  color: black !important;
+  text-decoration: none !important;
+}
+.header {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center;
+  margin-top: 50px !important;
+}
+.ModalBody {
+  width: 100% !important;
+  height: 90% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.ModalHeaderText {
+  color: #161a1a !important;
+  letter-spacing: 0.17px !important;
+  text-align: center !important;
+  font: normal normal 900 26px/30px sans-serif !important;
+  margin-top: -20px !important;
+}
+.ModalHeader2 {
+  display: none !important;
+}
+.ModalSocialMedial {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 66% !important;
+  max-width: 400px !important;
+}
+.ModalFaceBookButton {
+  align-items: center !important;
+  width: 47% !important;
+  height: 40px !important;
+  border-radius: 50px !important;
+  font-size: 18px !important;
+  opacity: 1 !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  background: #4267b2 0% 0% no-repeat padding-box !important;
+  padding-right: 40px !important;
+  border: none !important;
+  outline: none !important;
+}
+.ModalGoogleButton {
+  align-items: center !important;
+  width: 47% !important;
+  height: 40px !important;
+  border-radius: 50px !important;
+  font-size: 20px !important;
+  opacity: 1 !important;
+  color: #303033 !important;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  padding-right: 40px !important;
+}
+.FormWrapper {
+  width: 80% !important;
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.form {
+  width: 100% !important;
+  margin-top: 8px !important;
+}
+.Form {
+  display: flex !important;
+  width: 90% !important;
+  flex-direction: column !important;
+  margin: 30px 0 !important;
+  margin-left: 30px !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.FormInput {
+  width: 100% !important;
+  margin-top: -18px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  color: #161a1a !important;
+  opacity: 0.78px !important;
+  font-size: 0.9rem !important;
+  border: 1px solid #2d9bef !important;
+  padding: 0 20px !important;
+  /* padding-left: 20px; */
+  background: #f8fcff 0% 0% no-repeat padding-box !important;
+}
+.formPartition {
+  width: 45% !important;
+  margin-top: -18px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  color: #161a1a !important;
+  opacity: 0.78px !important;
+  font-size: 0.9rem !important;
+  border: 1px solid #2d9bef !important;
+  padding: 0 20px !important;
+  /* padding-left: 20px; */
+  background: #f8fcff 0% 0% no-repeat padding-box !important;
+}
+.partitionGroup {
+  width: 90% !important;
+  display: flex !important;
+  height: 40px !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-left: 6% !important;
+}
+.FormSelect {
+  width: 100% !important;
+  display: flex !important;
+  height: 40px !important;
+  justify-content: space-between !important;
+}
+.FormInputDate {
+  width: 40% !important;
+  height: 85% !important;
+  border: 1px solid #161a1a !important;
+  border-radius: 4px !important;
+  margin-left: 35px !important;
+  padding-left: 5px !important;
+  font-size: 18px !important;
+}
+.select {
+  width: 30% !important;
+  height: 90% !important;
+  background: 1px solid #161a1a !important;
+  font-size: 18px !important;
+  border-radius: 4px !important;
+  margin-right: 35px !important;
+  padding-left: 7px !important;
+}
+.ModalFormChild {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 65% !important;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #959da2 !important;
+  margin: 30px auto !important;
+}
+.ModalFormChilds {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 30px !important;
+}
+.Icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  font-size: 14px !important;
+  color: #99999f !important;
+  letter-spacing: 0.07px !important;
+}
+.ModalRecaptcha {
+  width: 25px !important;
+  height: 30px !important;
+  opacity: 1 !important;
+  color: #fff !important;
+  margin-right: 10px !important;
+}
+.ModalTerms {
+  width: 100% !important;
+  height: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding-bottom: 20px !important;
+  margin-top: 100px !important;
+}
+.ModalSignUp {
+  width: 50% !important;
+  height: 32px !important;
+  border-radius: 40px !important;
+  color: #fff !important;
+  margin-bottom: 8px !important;
+  margin-top: 35px !important;
+  outline: none !important;
+  margin-left: 25% !important;
+  background: #2d9bef 0% 0% no-repeat padding-box !important;
+  border: none !important;
+  text-align: center !important;
+  font: normal normal bold 12px/14px sans-serif !important;
+  letter-spacing: 0.1px !important;
+  opacity: 1 !important;
+}
+.ModalTermsH5 {
+  text-align: center !important;
+  font: normal normal normal 12px/20px sans-serif !important;
+  letter-spacing: 0.07px !important;
+  color: #2d9bef !important;
+}
+.ModalTermsFirst {
+  text-align: center !important;
+  font: normal normal normal 12px/20px sans-serif !important;
+  letter-spacing: 0.07px !important;
+  color: #121212 !important;
+}
+.Footer {
+  color: #161a1a !important;
+  text-align: center !important;
+  letter-spacing: 0.1px !important;
+  font-size: 12px !important;
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+}
+.Message {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.signUpGroup {
+  display: flex !important;
+  flex-direction: column !important;
+}
+@media screen and (max-width: 1000px) {
+  .ModalWrapper {
+    position: absolute !important;
+    z-index: 500 !important;
+    background-color: white !important;
+    min-width: 80% !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+    box-sizing: border-box !important;
+    transition: all 0.5s ease-out !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .divWrapper {
+    height: 150vh !important;
+    width: 100vw !important;
+    margin-bottom: 0 !important;
+  }
+  .ModalWrapper {
+    position: relative !important;
+    margin-top: 0 !important;
+    background: transparent linear-gradient(189deg, #ca42f2 0%, #6a42f2 40%, #4294f2 72%, #42b5f2 100%) 0% 0% no-repeat
+      padding-box !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+    transition: all 0.5s ease-out !important;
+  }
+
+  .close {
+    color: white !important;
+  }
+  .imgClose {
+    display: none !important;
+  }
+  .arrow {
+    color: white !important;
+  }
+  .ModalBody {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+  }
+  .ModalFormChilds,
+  .Para,
+  .BtnP {
+    display: none !important;
+  }
+  .ModalLogin {
+    background: transparent !important;
+    border: 1px solid white !important;
+  }
+  .FormWrapper {
+    justify-content: space-between !important;
+  }
+  .ModalSocialMedial {
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100px !important;
+  }
+  .ModalFaceBookButton {
+    width: 90% !important;
+  }
+  .ModalGoogleButton {
+    width: 90% !important;
+  }
+  .ModalFormChild {
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .ModalLogin {
+    width: 40% !important;
+    background: transparent !important;
+  }
+  .FormWrapper {
+    width: 100% !important;
+    margin: 0 auto !important;
+    margin-top: -30px !important;
+    align-items: space-between !important;
+    justify-content: space-between !important;
+  }
+
+  .ModalSocialMedial {
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100px !important;
+  }
+  .ModalFaceBookButton {
+    width: 90% !important;
+  }
+  .ModalGoogleButton {
+    width: 90% !important;
+  }
+  .ModalFormChild {
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .ModalLogin {
+    width: 40% !important;
+    background: transparent !important;
+  }
+  .FormWrapper {
+    width: 100% !important;
+    margin: 0 auto !important;
+    margin-top: -30px !important;
+    align-items: space-between !important;
+    justify-content: space-between !important;
+  }
+  .ModalBody {
+    flex-direction: column-reverse !important;
+  }
+  .ModalHeaderText {
+    display: none !important;
+  }
+  .ModalHeader2 {
+    display: block !important;
+    font: normal normal 900 26px/30px sans-serif !important;
+    color: white !important;
+    letter-spacing: 0.17px !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+  }
+  .signUpGroup {
+    flex-direction: column-reverse !important;
+  }
+  .ModalSignUp {
+    background: transparent !important;
+    border: 1px solid white !important;
+    width: 40% !important;
+  }
+  .ModalTermsFirst {
+    color: white !important;
+  }
+}

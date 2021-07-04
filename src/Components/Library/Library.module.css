@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    height: 12rem;
+    width: 12rem;
+    border-radius:5px;
+    /* border: 1px solid white; */
+    float: left;
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    /* box-shadow: 10px 10px 8px #3b3535; */
+    /* background-image: url('./assets/music.jpeg'); */
+    
+}
+.cardWrapper {
+    display: inline-block;
+  
+}
+.cardWrapper p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 0.5;
+    margin-left: 10px;
+}
+.cardHolder{
+    height: 13rem;
+    width: 10rem;
+    border-radius:5px;
+    float: left;
+    margin: 10px;
+    display:flex;
+    align-items: column;
+
+}
+
+.card:hover{
+box-shadow: 10px 10px 8px #111111;
+transform: scale(0.5.1)
+}
+.below{
+    display: flex;
+    flex-direction:column;
+}
+.fas{
+    color:rgb(100, 9, 9);
+    font-size:200px;
+    margin: 0 auto;
+}
+.small{
+    font-size: 12px;
+    text-align: center;
+}
+/* .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); } */
+.btnOne{
+    display: inline;
+    border: solid 1px #fff;
+    background: transparent;
+    border-radius: 50px;
+    padding:5px 18px;
+    color: #fff;
+}
+.btnTwo{
+    float: right;
+    border: none;
+    border-radius: 50px;
+    padding:5px 18px;
+    color: #fff;
+    background: linear-gradient(135deg, rgba(53, 237, 248, 0.8) 0%, rgba(45, 155, 239, .8) 40%, rgba(155, 45, 239, .6) 100% )
+}
+.modalSelect{
+    background-color: #3A3A3D;
+    color: #fff;
+    border-radius:4px;
+    margin-bottom: 20px;
+}
+.modalBody{
+    background-color: #3A3A3D;
+}
+.modalHeader{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size:14px;
+    background-color: #3A3A3D;
+    text-decoration: none;
+}
+.modalInput{
+    background: transparent;
+    color: #fff;
+    margin-bottom: 20px;
+    border:none;
+    /* border-bottom: 1px solid #fff; */
+    box-shadow: -3px 2px 4px #0000004D;
+    width: 100%;
+    outline: none;
+    opacity: 1;
+}
+.modalInput:focus{
+    border-bottom: 1px solid #35EDFB;
+}
+.modalInput::placeholder{
+    color: #fff;
+}
+.cont{
+    min-height: 100vh;
+    position: absolute;
+    width: 100vw;
+    background:linear-gradient( rgb(10, 10, 10), rgb(7, 7, 7));
+  
+    color: #fff;
+    /* display: flex; */
+    padding-top: 4rem;
+    flex-wrap: wrap;
+}
+.test{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.cardDescription{
+    text-align: left;
+    padding-left: 1.5rem;
+    line-height: 0.5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.numberOfSongs{
+    text-align: left;
+    padding-left: 1.5rem;
+    font-size: 12px;
+    line-height: 0.5;
+}
+Modal .close {
+    background: #3A3A3D !important;
+}
+.add{
+    margin: auto;
+}
+.wrap{
+  
+    display: flex;
+    width: 100% ;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+
+
+/************** Styling the modal *******************/
+.mod{
+    width: 80%;
+    /* background-color: #3b3535; */
+}
+.cont > container{
+    background-color: #3b3535;
+}

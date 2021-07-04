@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bagg1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  background: transparent url('../img/BG.png') 0% 0% no-repeat padding-box !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.bigNavbar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 84px;
+  background: var(--unnamed-color-161a1a) 0% 0% no-repeat padding-box;
+  background: #161a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+.bigNavbar .one {
+  width: 65%;
+  height: 100%;
+  background: var(--unnamed-color-161a1a) 0% 0% no-repeat padding-box;
+  background: #161a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  float: left;
+}
+.bigNavbar .one .logo {
+  width: 10%;
+  height: 100%;
+  padding: 25px;
+  color: white;
+  float: left;
+}
+.bigNavbar .one .links {
+  width: 90%;
+  height: 100%;
+  float: left;
+}
+.bigNavbar .one .links ul {
+  list-style-type: none;
+}
+.bigNavbar .one .links ul li {
+  float: left;
+  margin: 15px;
+  color: var(--unnamed-color-99999f);
+  font: normal normal bold 20px/52px Lato;
+  letter-spacing: 0.12px;
+  color: #99999f;
+  opacity: 1;
+}
+.bigNavbar .one .links ul li.lib {
+  margin-top: 15px;
+  padding-top: -10px;
+  height: 50px;
+  font: normal normal bold 20px/52px Lato;
+  border: 1px solid #2dceef;
+  text-align: center;
+  width: 150px;
+  color: #2dceef;
+  border-radius: 40px;
+}
+.bigNavbar .one .links ul li span {
+  color: #fff;
+  font: normal normal normal 18px/52px Lato;
+}
+.bigNavbar .two {
+  width: 35%;
+  height: 100%;
+  background: var(--unnamed-color-161a1a) 0% 0% no-repeat padding-box;
+  background: #161a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  float: left;
+}
+.bigNavbar .two .search {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.bigNavbar .two .search .icon {
+  width: 90%;
+  height: 50%;
+  margin: 7% auto;
+}
+.bigNavbar .two .search .icon .searchMe {
+  position: absolute;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.bigNavbar .two .search .icon .searchNow {
+  width: 100%;
+  height: 100%;
+  background: #898b91 0% 0% no-repeat padding-box;
+  border-radius: 80px;
+  opacity: 0.5;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding-left: 35px;
+  padding-right: 3px;
+}
+.bigNavbar .two .search .icon .searchNow::placeholder {
+  color: white;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.bigNavbar .two .profile {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.bigNavbar .two .profile .prof {
+  float: left;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.bigNavbar .two .profile .checkUser {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+.bigNavbar .two .profile .checkUser:focus {
+  outline: none;
+  outline: none;
+  box-shadow: none;
+}
+.smallNavbar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 58px;
+  background: var(--unnamed-color-161a1a) 0% 0% no-repeat padding-box;
+  background: #161a1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  display: none;
+  /* border: 1px solid blue; */
+}
+.smallNavbar .lastone {
+  width: 75%;
+  height: 100%;
+  float: left;
+  margin-right: 5px;
+}
+.smallNavbar .lastone li {
+  list-style-type: none;
+  margin: 15px;
+}
+.smallNavbar .lastone li i {
+  font-size: 15px;
+  color: #fff;
+}
+.smallNavbar .lasttwo {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.smallNavbar .lasttwo .share {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.smallNavbar .lasttwo .share i {
+  margin: 20px;
+  font-size: 15px;
+  color: #fff;
+  margin-left: -5px;
+}
+.playHead {
+  margin-top: 30px;
+  width: 100%;
+  height: 225px;
+  background-color: transparent;
+  opacity: 1;
+}
+.playHead .cardNow {
+  width: 20%;
+  height: 225px;
+  background-color: transparent;
+  opacity: 1;
+  float: left;
+}
+.playHead .playTitle {
+  width: 35%;
+  height: 225px;
+  float: left;
+}
+.playHead .playTitle p {
+  color: var(--unnamed-color-ffffff);
+  font: normal normal normal 18px/61px Lato;
+  letter-spacing: 0.11px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.playHead .playTitle h5 {
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 900 40px/51px Lato;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: -20px;
+}
+.playHead .playTitle .no {
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 14px/61px Lato;
+  letter-spacing: 0.08px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: -20px;
+}
+.playHead .playTitle .nodate {
+  color: var(--unnamed-color-99999f);
+  text-align: left;
+  font: normal normal normal 14px/61px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  opacity: 1;
+  margin-top: -40px;
+}
+.playHead .rare {
+  width: 40%;
+  height: 195px;
+}
+.playHead .rareDate {
+  width: 40%;
+  height: 20px;
+}
+.playHead .shuffle {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.playHead .shu {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.playHead .shuffle button {
+  margin: 75px auto;
+  width: 150px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  background: transparent
+    linear-gradient(269deg, var(--unnamed-color-9b2def) 0%, var(--unnamed-color-2d9bef) 61%, #35edfb 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(269deg, #9b2def 0%, #2d9bef 61%, #35edfb 100%) 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  opacity: 1;
+  color: #fff;
+}
+.playHead .shu .edit button {
+  margin: 75px auto;
+  width: 120px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font: normal normal bold Lato;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
+.playHead .dot button {
+  margin: 75px auto;
+  margin-left: 40px;
+  width: 45px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font: normal normal bold Lato;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  opacity: 1;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
+.playHeadSmall {
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  display: none;
+}
+.playHeadSmall .smallImage {
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+}
+.playHeadSmall .smallImage .smallcard {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.playHeadSmall .clasicRock {
+  width: 400px;
+  height: 20px;
+  margin: 10px auto;
+}
+.playHeadSmall .clasicSongs {
+  width: 380px;
+  height: 20px;
+  margin: 0 auto;
+}
+.playHeadSmall .clasicBtn {
+  width: 400px;
+  height: 62px;
+  margin: 10px auto;
+}
+.playHeadSmall .clasicBtn .editBtn {
+  width: 150px;
+  height: 60px;
+  background-color: transparent;
+  font: normal normal bold 14px/61px Lato;
+  letter-spacing: 0.08px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  margin-right: 40px;
+}
+.playHeadSmall .clasicBtn .shuBtn {
+  width: 150px;
+  height: 60px;
+  background-color: transparent;
+  font: normal normal bold 14px/61px Lato;
+  letter-spacing: 0.08px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background: transparent
+    linear-gradient(269deg, var(--unnamed-color-9b2def) 0%, var(--unnamed-color-2d9bef) 61%, #35edfb 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(269deg, #9b2def 0%, #2d9bef 61%, #35edfb 100%) 0% 0% no-repeat padding-box;
+}
+.playHeadSmall .lastBtn {
+  width: 250px;
+  margin: 0 auto;
+  color: var(--unnamed-color-99999f);
+  text-align: center;
+  font: normal normal normal 14px/19px Open Sans;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  opacity: 1;
+}
+.playHeadSmall .clasicRock h2 {
+  color: var(--unnamed-color-ffffff);
+  font: normal normal bold 30px/35px Lato;
+  letter-spacing: 0.18px;
+  color: #ffffff;
+  opacity: 1;
+  text-align: center;
+}
+.playHeadSmall .clasicSongs h2 {
+  font: normal normal normal 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  opacity: 1;
+  text-align: center;
+}
+.plays {
+  margin-top: 30px;
+  width: 100%;
+  height: 4vh;
+}
+.plays .playSearch {
+  width: 100%;
+  height: 100%;
+}
+.plays .playSearch .searchPlay {
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+}
+.plays .playSearch .searchMe {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  color: #fff;
+  padding-left: 25px;
+}
+.plays .playSearch .searchMe::placeholder {
+  color: white;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.plays .sureSong {
+  font: normal normal normal 16px/32px Lato;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  opacity: 1;
+}
+.songHead {
+  width: 100%;
+  height: 6vh;
+}
+.songHead .number {
+  width: 2.5%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.songHead .title {
+  width: 25%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.songHead .artist {
+  width: 28%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.songHead .ablum {
+  width: 28%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.songHead .time {
+  width: 16.5%;
+  height: 100%;
+  font: normal normal bold 14px/32px Lato;
+  letter-spacing: 0.08px;
+  color: #99999f;
+  float: left;
+}
+.plays .playSearches .refresh {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+  width: 100%;
+  color: #fff;
+  border-radius: 40px;
+}
+.playSmall {
+  margin-top: 20px;
+  display: none;
+}
+.playSmall .smallFirst {
+  width: 100%;
+  height: 4vh;
+}
+.playSmall .smallFirst button {
+  border: none;
+  outline: none;
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 16px/19px Lato;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  opacity: 0.3;
+  background-color: transparent;
+}
+.playSmall .smallFirst input {
+  float: right;
+  margin-top: 7px;
+  font-size: 15px;
+  margin-right: 85px;
+}
+.playSmall .smallSecond{
+  height: 4vh;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.playSmall .smallSecond i{
+  color: #fff;
+  font-size: 20px;
+}
+.playSmall .smallSecond p{
+  font: normal normal normal 16px/32px Lato;
+  letter-spacing: 0.1px;
+  color: #FFFFFF; 
+  margin-right: 70px;
+  float: right;
+
+}
+@media screen and (max-width: 1040px) {
+  .bagg1 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: none !important;
+    background-color: black !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+  .bigNavbar {
+    display: none;
+  }
+  .smallNavbar {
+    display: block;
+  }
+  .playHead {
+    display: none;
+  }
+  .playHeadSmall {
+    display: block;
+  }
+  .songHead {
+    display: none;
+  }
+  .plays {
+    display: none;
+  }
+  .playSmall {
+    display: block;
+  }
+}

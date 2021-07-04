@@ -1,0 +1,27 @@
+.mainLoader{
+    position: absolute;
+    width: 100% !important;
+    height: 100vh !important;
+    background: transparent url('../img/BG1.png') 0% 0% no-repeat padding-box !important;
+}
+.mainLoader .loader {
+    border: 16px solid #f3f3f3 !important;
+    border-radius: 50% !important;
+    border-top: 16px solid #3498db !important;
+    width: 120px !important;
+    margin: 300px auto !important;
+    height: 120px !important;
+    -webkit-animation: spin 2s linear infinite !important; /* Safari */
+    animation: spin 2s linear infinite !important;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

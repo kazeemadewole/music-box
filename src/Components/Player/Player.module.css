@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --unnamed-color-9b2def: #9b2def;
+  --unnamed-color-2d9bef: #2d9bef;
+  --unnamed-color-2dceef: #2dceef;
+  --unnamed-color-161a1a: #161a1a;
+  --unnamed-color-303033: #303033;
+  --unnamed-color-3a3a3d: #3a3a3d;
+  --unnamed-color-424346: #424346;
+  --unnamed-color-99999f: #99999f;
+  --unnamed-color-d5d5d5: #d5d5d5;
+  --unnamed-color-ffffff: #ffffff;
+}
+
+.controls_wrapper {
+  position: fixed;
+  bottom: 0;
+  height: 95px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+
+}
+.controls {
+  width: 98%;
+  display: flex;
+  background: var(--unnamed-color-3a3a3d) 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 1em;
+  color: #ffffff;
+}
+
+.audio_hero {
+  display: flex;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  display: flex;
+  width: 25%;
+  flex: 1;
+}
+.songtext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 0.5em;
+}
+.img > img {
+  width: 100%;
+  max-width: 75%;
+}
+
+.fav_bttn,
+.shuffle_bttn,
+.prev,
+.input,
+.currentTime,
+.totalTime,
+.playlist_bttn,
+.volum,
+.progress,
+.repeat_bttn {
+  display: none !important;
+}
+.middle {
+  display: flex;
+  align-items: center;
+}
+
+.controllers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bttn,
+.bttn {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+}
+
+.bttn__green {
+  color: green;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.bttn:hover,
+.bttn__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+
+.volum input {
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box; */
+  width: 80px;
+  height: 3px;
+  color: green !important;
+}
+
+.progressbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.artistname {
+  margin: 0;
+  color: var(--unnamed-color-99999f);
+}
+
+.song_title {
+  margin: 0;
+  padding: 0;
+  color: var(--unnamed-color-ffffff);
+}
+
+@media screen and (min-width: 480px) {
+  .fav_bttn,
+  .shuffle_bttn,
+  .prev,
+  .repeat_bttn {
+    display: inline !important;
+  }
+  .controllers {
+    width: 100%;
+  }
+  .prev,
+  .play,
+  .next,
+  .repeat_bttn {
+    margin-left: 1.5em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .playlist_bttn {
+    display: inline !important;
+  }
+
+  .playlist_bttn {
+    margin-left: 1.2em;
+  }
+  .queued_songs_div{
+    background-color: #303033;
+
+    position: fixed;
+    width: 40%;
+    max-width: 400px;
+    z-index: 3;
+    right: 1em;
+    bottom: 9em;
+    border-radius: 1em;  
+    padding: 2em;
+  }
+  
+  .queued_songs{
+   margin-top: 1em;
+   display: flex;
+   align-items: center;
+   color: #fff;
+  }
+
+  .queued_songs:hover{
+    background-color: #3A3A3D;
+  }
+
+  .queued_songs_details{
+    display: flex;
+    flex: 1;
+  }
+
+  .queued_songs_image{
+    display: flex;
+    margin-right: 1em;
+  }
+
+  .queued_songs_image img{
+   width: 50px;
+   height: 50px;
+  }
+
+  .options {
+    font-size: 20px;
+  }
+
+  span {
+    margin-right: 15px;
+  }
+  .remove {
+    font-size: 25px;
+  }
+
+  .queued_songs_title{
+    text-align: left;
+  }
+  .queued_songs_bttn{
+    justify-self: flex-end;
+  }
+
+  .playlist_display {
+    background-color: #fff;
+    position: fixed;
+    width: 30%;
+    max-width: 400px;
+    z-index: 3;
+    left: 1em;
+    bottom: 9em;
+    border-radius: 1em;  
+    padding: 2em;
+  }
+
+  .playlist_display > p {
+    color: black;
+  }
+}
+@media screen and (min-width: 900px) {
+  .input,
+  .currentTime,
+  .totalTime,
+  .volum,
+  .progress {
+    display: inline !important;
+  }
+
+  .currentTime,
+  .totalTime {
+    margin: 7px;
+  }
+
+  .middle {
+    flex: 3;
+    margin: auto 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .end {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .audio_hero {
+    flex: 1;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .volum {
+    display: flex !important;
+
+    align-items: center !important;
+  }
+
+  .songtext {
+    flex-direction: column;
+  }
+}
+
+.progressbar > input[type='range'] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+.progressbar > input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+.progressbar > input[type='range']:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+.progressbar > input[type='range']::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.progressbar > input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #5f08ec00;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
+}
+/* All the same stuff for Firefox */
+.progressbar > input[type='range']::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  background: #21db09;
+  cursor: pointer;
+}
+/* All the same stuff for IE */
+.progressbar > input[type='range']::-ms-thumb {
+  height: 16px;
+  width: 16px;
+  background: #ca0505;
+  cursor: pointer;
+}
+

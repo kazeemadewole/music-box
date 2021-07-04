@@ -1,0 +1,497 @@
+body{
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.par {
+  background: #161a1a ;
+  color: white  !important;
+  font-family: 'lato', sans-serif;
+  height: 1650px ;
+}
+.center {
+  display: 'flex';
+  justify-content: 'center';
+  /* float: none; */
+  margin: 0 auto;
+}
+.subtitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+.container {
+  display: block;
+  width: 100%;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 100%;
+  justify-content: center;
+  /* background-color: #4287f5; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+th {
+  color: white;
+}
+th,td {
+  width: 150px;
+  height: 20px;
+  /* text-align: center; */
+  padding: 5px;
+  /* border:1px solid red */
+}
+.lsSpace{
+  width: 10px;
+}
+td p {
+  /* border:1px solid red; */
+  width: 150px;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  margin-bottom: 0; 
+}
+.lsSpaceP{
+  width: 60px;
+  overflow: visible !important;
+}
+.iconic{
+  width: 20px;
+  margin-left: 0;
+}
+.space {
+  margin-right:1rem !important;
+}
+.space-left {
+  margin-left: 1rem !important;
+}
+#first{
+  border: 1px red solid;
+}
+.downn{
+  float: right;
+  margin-right: 5rem;
+  width: 18px !important;
+  height: 9px !important;
+}
+.downn:hover{
+  cursor: pointer;
+}
+.flex-container {
+  width: 100%;
+  height: 12vh;
+  margin-top: 4rem;
+}
+.image-parent{
+    height: 85px;
+    width: 85px;
+    float: left;
+    background-color: #313131;
+    border-radius: 50%;
+}
+.try{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 0.8rem;
+    text-align: left;
+}
+.user1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.free-account{
+  font-size: 16px;
+  
+}
+.premium{
+    width: 190px;
+    height: 38px;
+    text-align: center;
+    float: right;
+    background: transparent
+    linear-gradient(269deg, #9b2def 0%, #2d9bef 61%, #35edfb 100%) 0% 0%
+    no-repeat padding-box;
+    margin: 1.5rem 0;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    vertical-align: middle;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.contact{
+  font-weight: bold;
+  font-size: 24px;
+}
+.image {
+  height: 90%;
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.card-style{
+    background-color: #161a1a;
+
+} 
+.form{
+    /* background-color: red; */
+    margin-top: 2rem;
+    width: 100%;
+    /* height: 40vh; */
+}
+.form-title{
+    text-align: left;
+    font-weight: bold;
+}  
+.roww .gridd{
+  color: #fff !important;
+  /* border-bottom: solid 1px #fff !important; */
+}
+/* .white::placeholder{
+    color: white;
+    
+} */
+
+.white *{
+    color: white !important;
+    font-family: 'lato', sans-serif;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    /* border-bottom: solid 1px white !important; */
+}
+
+.white {
+    border-bottom: solid 1px white !important; 
+
+}
+.userDet{
+  background-color: #161a1a !important;
+  /* border-bottom: solid 1px white !important; */
+  font-size: 1rem !important;
+  font-weight: bold ;
+  color: #fff !important;
+  /* display:none */
+}
+.userDet input{
+  border-bottom: 1px solid #fff !important;
+  outline: none !important;
+}
+/* .genderParent{
+  max-width: 79%;
+} */
+
+.logout {
+  width: 160px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: 6px 30px;
+  text-align: center;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  background: none;
+  color: #fff;
+  font-size: 12px;
+  margin: 0 auto;
+ }
+ .horizon{
+   margin: 1rem auto;
+   color: #fff;
+   background-color: #fff;
+   width: 79%;
+   text-align: center;
+   border: 1px solid white;
+   opacity: 0.3;
+
+ }
+ .social-wrapper{
+  margin: 0 auto;
+  width: 77%;
+ }
+ .social-wrapper-child1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 1.3rem auto;
+ }
+ .streaming{
+   margin-top: 2rem;
+   display: inline-block;
+   margin-left: 8rem;
+   font-size: 32px;
+   font-family: lato, sans-serif;
+   font-weight: bold;
+ }
+ .premium-feature{
+   margin-top: 0.5rem;
+   font-family: lato, sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   margin-left: 8rem;
+ }
+ .radio-paren{
+  font-family: lato, sans-serif;
+  margin-left: 8rem;
+ }
+ 
+ .buttonText{
+  color:#fff;
+  display: inline-block;
+  margin-left: 0.8rem;
+  opacity: 0.3;
+  font-size: 16px;
+ }
+ .horizon2{
+   margin-bottom: 3rem
+ }
+ .account-parent{
+  margin: 0 auto;
+  width: 77%;
+ }
+ .account{
+  text-align: left;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  opacity: 1;
+ }
+ .notifications{
+   opacity: 1;
+   letter-spacing: 0.1px;
+   font-size: 17px;
+   text-align: left;
+   font-weight: bold;
+   margin: 1.2rem 0;
+ }
+ .notifications2{
+  opacity: 0.4;
+  letter-spacing: 0.1px;
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+  margin: 1.2rem 0;
+}
+.change-password{
+  cursor: pointer;
+}
+.change-password:hover{
+  opacity: 0.4;
+  color: #2DCEEF;
+}
+.error-message{
+  margin: 0 auto;
+  color: red;
+  background-color: #fff;
+}
+   /* On screens that are 992px or less, set the background color to olive */
+    @media screen and (max-width: 992px) {
+      body{
+        height: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+      .par {
+        background: #161a1a ;
+        color: white  !important;
+        font-family: 'lato', sans-serif;
+        /* height: 1650px !important; */
+        width: 100%;
+      }
+      .streamingParent{
+        display: none;
+      }
+      .account-parent{
+        margin-top: 4rem;
+      }
+      .userDet input{
+        width: 86% !important;
+        margin: 0 auto;
+      }
+      table{
+        margin: 0 auto;
+      }
+      .iconic{
+        display: none;
+      }
+      .img #space-left{
+        margin-right: 1rem;
+      }
+      
+      }
+
+      @media screen and (max-width: 600px) and (max-width: 800px){
+        .userDet input{
+          width: 78% !important;
+          margin: 0 auto;
+        }
+      }
+      
+      
+      /* On screens that are 600px or less, set the background color to olive */
+      @media screen and (max-width: 600px) {
+        body{
+          height: 100%;
+          margin: 0;
+          box-sizing: border-box;
+          padding: 0;
+        }
+        div .par{
+          height: 1300px;
+          width: 100%;
+        }
+        div .par .tablePar{
+          height: 100% !important;
+        }
+        .userDet input {
+          width: 200% ;
+        }
+        /* .contact{
+          display: none;
+        } */
+        table{
+          margin: 0 auto;
+        }
+        td p{
+          width: 150px;
+        }
+        th, td{
+          /* width: 50px; */
+          /* display: none; */
+        }
+        .space-left{
+          position: relative;
+          left: -20px;
+          top: -30px;
+        }
+        .subtitlePar
+        {
+          position: relative;
+          top: 0;
+          left: -30;
+          margin: 0;
+          margin-left: 1rem;
+          margin-top: 1.5rem;
+        }
+        h5.subtitle{
+          margin: 0;
+          margin-bottom: 1rem;
+        }
+        .none{
+          display: none;
+        }
+        #genderParent{
+          width: 88% !important;
+        }
+        .icony{
+          display: none;
+        }
+        .premium {
+          position: relative;
+          top: -10px !important;
+          margin-top: 0;
+          /* margin-left: 200px;  */
+          /* border:1px solid red; */
+          text-align: center;
+          left: -80px;
+          margin-bottom: 0rem;
+          
+        }
+        .downn{
+          position: relative;
+          top: -35px;
+          left: 60px;
+        }
+        td .listeningTitle{
+          top: -60px;
+          left: 30px;
+        }
+        .container td{
+          font-size: 12px;
+        }
+        .space-left{
+          display: block;
+        }
+        #space-left{
+          display: block;
+        }
+        .user1{
+          /* color: green; */
+          /* border: 1px red solid; */
+          position: absolute;
+          top: -73px;
+          font-size: 1.1rem;
+          font-weight: bold;
+          font-size: 0.9rem;
+          left: -100px;
+          width: 200px;
+        }
+        .image-parent{
+          margin-left: 100px;
+          position: relative;
+           top: -30px; 
+
+        }
+        .free-account{
+          width: 150px;
+          top: 53px;
+          left: -80px;
+          font-size: 14px;
+          opacity: 0.8;
+          position: absolute;
+          height: 30px;
+          /* margin-bottom: 0; */
+          
+
+        }
+        .contact{
+          position: relative;
+          left: 0px !important;
+          top: 10px !important;
+          font-size: 20px;
+          opacity: 0;
+        
+        }
+        .account-parent{
+          display: none;
+        }
+        /* .userInfoChild{
+          margin-top: 40px;
+        } */
+      }
+      @media screen and (max-width: 400px){
+        
+        body{
+          height: 100%;
+          width: 100%;
+          margin: 0;
+          box-sizing: border-box;
+          padding: 0;
+
+        }
+        .userDet input{
+          width: 268px !important;
+          margin: 0 auto;
+        }
+        .contact{
+          position: relative;
+          top: 0px;
+          left: 0px;
+        }
+        .premium{
+          margin: 0;
+          position: relative;
+          top: 0px;
+          /* left: -120px; */
+        }
+      }

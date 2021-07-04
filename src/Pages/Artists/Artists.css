@@ -1,0 +1,163 @@
+.flex-row{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.hide{
+    display:none;
+}
+p, span{
+    margin: 0rem;
+    padding: 0rem;
+}
+li{
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+li a{
+    text-decoration:none;
+    color: white;
+}
+li a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+li:hover{
+    text-decoration: none;
+    color: inherit;
+    background-image: linear-gradient(to right, #9B2DEF 0%, #2DCEEF 100%);
+    opacity: 1;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 40px 3px;
+}
+.active{
+    background-image: linear-gradient(to right, #9B2DEF 0%, #2DCEEF 100%);
+    opacity: 1;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 40px 3px;
+}
+.artists-container-page-wrapper{
+  min-height: 100vh;
+  background-image: url(../../assets/genre-details-bg.png);
+  background-size: cover;
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+.artists-container{
+    padding: 3rem 7rem;
+    color: white;
+}
+.artists-container nav{
+    align-items:flex-end;
+    padding: 0rem;
+    line-height: 2;
+
+}
+.artists-container nav .artist-title{
+    font-size: 4rem;
+    margin: 0rem;
+    padding: 0rem;
+    line-height: 1;
+}
+.artists-container nav li{
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.artists-container .div-wrapper{
+    margin: 4rem 0rem;
+}
+.artists-container .div-wrapper .sub-header {
+  align-items: flex-end;
+}
+.artists-container .div-wrapper .sub-header span:first-of-type {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.artists-container .div-wrapper .sub-header span:nth-of-type(2) .icon {
+  font-size: 1rem;
+  color: #d5d5d5;
+  font-weight: bold;
+  cursor: pointer;
+}
+.artists-container .card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 15%);
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+.artists-container .artists-wrapper .card {
+  border-radius: 0.5rem;
+  position: relative;
+  border: none;
+  background-color: transparent;
+}
+.artists-container .artists-wrapper .card-wrapper {
+  margin: 0rem 0rem 3rem 0rem;
+}
+.artists-container .artists-wrapper .card-wrapper .card-artist-details {
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.artists-container .card .circle {
+  border-radius: 50%;
+}
+.card .circle:hover {
+  border: 1px solid #9b2def;
+  transform: scale(1.1, 1.1);
+  transition-duration: 2s;
+  background-color: transparent;
+}
+.artists-container .card .card-title {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+.artists-container .card-image-div {
+  width: 100%;
+  height: 100%;
+}
+.artists-container .card-image-div img {
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  border-radius: 0.5rem;
+}
+.artists-container .sub-header {
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.artists-container .sub-header span a {
+  color: white;
+  text-decoration: none;
+}
+.artists-container .card-artist-details {
+  align-items: center;
+  margin-top: 0.75rem;
+}
+.artists-container .card-artist-details .artist-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.artists-container .card-artist-details .likes-div {
+  font-size: 0.875rem;
+  color: #99999f;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+.artists-container .likes-div .icon {
+  margin: 0rem 0.5rem 0rem 0rem;
+  font-size: 1rem;
+}
