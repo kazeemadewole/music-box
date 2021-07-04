@@ -1,4 +1,5 @@
 {
+  "homepage": "http://whocares0.github.io/music-box",
   "name": "musicbox-web",
   "version": "0.1.0",
   "private": true,
@@ -52,12 +53,15 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-typescript-prettier": "^4.2.0",
     "eslint-config-react-app": "^6.0.0",
+    "gh-pages": "^3.2.3",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.1",
     "serve": "^12.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
